@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: black;  */
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.navigation{
+    background-color: dodgerblue;
+    margin-bottom: 100px;
+}
+nav {
+    /* background-color: aquamarine;  */
+}
+.name {
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.navigation {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    color: aliceblue;
+   
+}
+ul {
+    display: flex;
+     gap: 30px;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 20px;
+}
+
+#menu {
+    display: none;
+}
+#img {
+    display: none;  
+}
+#hero-section {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img  {
+    width: 400px;
+}
+.hero-img img {
+    width: 100%;
+    border-radius: 6px;
+}
+.hero-contant {
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.hero-contant h1 {
+    width: 400px;
+}
+button {
+    padding: 10px 25px;
+    border: none;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.hero-contant p {
+    margin-bottom: 20px;
+}
+
+
+/* responsive  */
+
+@media screen and (max-width:1200px) {
+    .container {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width:1024px) {
+    .navigation > ul {
+        display: none;
+    }
+    #menu {
+        display: block;
+        margin-right: 10px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+    .navigation{
+    background-color: rgb(212, 200, 179);
+    }
+    #hero-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+}
+@media screen and (max-width:768px) {
+
+    #menu {
+        color: chartreuse;
+        font-size: 35px;
+        margin-right: 10px;
+    }
+    .navigation{
+    background-color: rgb(17, 17, 17);
+    }
+      #img {
+        display: block;
+        color: aliceblue;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+      #menu {
+        display: none;
+    }
+}
+@media screen and (max-width:568px) {
+   .navigation{
+    background-color: red;
+    padding: 20px 0px;
+    }
+    .name h1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #menu {
+        display: none;
+    }
+    .navigation{
+    background-color: rgb(76, 38, 41);
+}
+    
+    #img {
+        display: block;
+        color: aliceblue;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .hero-contant h1 {
+    width: 100%;
+    }
+    .hero-img  {
+    width: 400px;  
+}
+.hero-img img {
+    width: 100%;
+    border-radius: 6px;
+}
+}
