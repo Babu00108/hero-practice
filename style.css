@@ -116,6 +116,14 @@ button {
         text-align: center;
         width: 100%;
     }
+       .hero-img img {
+    max-width: 100%;
+    border-radius: 6px;
+    }
+        .hero-img  {
+    width: 100%; 
+    margin-top: 20px; 
+    }
 }
 @media screen and (max-width:768px) {
 
@@ -148,7 +156,7 @@ button {
     border-radius: 6px;
     }
         .hero-img  {
-    width: 600px; 
+    width: 100%; 
     margin-top: 20px; 
     }
     .container {
@@ -183,7 +191,7 @@ button {
     width: 100%;
     }
     .hero-img  {
-    width: 318px;  
+    width: 100%;  
 }
 .hero-img img {
     max-width: 100%;
