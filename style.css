@@ -111,32 +111,45 @@ button {
     flex-direction: column;
     text-align: center;
     align-items: center;
-}
+    }
+    .hero-contant h1{
+        text-align: center;
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px) {
 
     #menu {
-        color: chartreuse;
-        font-size: 35px;
+        color: rgb(175, 179, 171);
+        font-size: 30px;
         margin-right: 10px;
     }
     .navigation{
     background-color: rgb(17, 17, 17);
     }
       #img {
-        display: block;
+
         color: aliceblue;
         font-size: 30px;
         margin-right: 10px;
     }
       #menu {
-        display: none;
+        display: block;
     }
+    .hero-contant h1{
+        text-align: center;
+        width: 100%;
+    }
+      .navigation{
+    padding: 10px 0px;
+    }
+
+    
 }
 @media screen and (max-width:568px) {
    .navigation{
     background-color: red;
-    padding: 20px 0px;
+    padding: 10px 0px;
     }
     .name h1 {
         font-size: 30px;
@@ -159,7 +172,7 @@ button {
     width: 100%;
     }
     .hero-img  {
-    width: 400px;  
+    width: 300px;  
 }
 .hero-img img {
     width: 100%;
