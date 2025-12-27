@@ -143,6 +143,18 @@ button {
       .navigation{
     padding: 10px 0px;
     }
+    .hero-img img {
+    max-width: 100%;
+    border-radius: 6px;
+    }
+        .hero-img  {
+    width: 600px; 
+    margin-top: 20px; 
+    }
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    }
 
     
 }
