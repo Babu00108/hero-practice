@@ -163,6 +163,9 @@ button {
     width: 100%;
     margin: 0 auto;
     }
+    .navigation{
+    margin-bottom: 10px;
+    }
 
     
 }
@@ -170,6 +173,9 @@ button {
    .navigation{
     background-color: red;
     padding: 10px 0px;
+    }
+      .navigation{
+    margin-bottom: 10px;
     }
     .name h1 {
         font-size: 30px;
