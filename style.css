@@ -156,14 +156,13 @@ button {
         margin-left: 10px;
     }
     #menu {
-        display: none;
+        display: block;
     }
     .navigation{
     background-color: rgb(76, 38, 41);
 }
     
     #img {
-        display: block;
         color: aliceblue;
         font-size: 30px;
         margin-right: 10px;
@@ -172,10 +171,14 @@ button {
     width: 100%;
     }
     .hero-img  {
-    width: 300px;  
+    width: 318px;  
 }
 .hero-img img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 6px;
 }
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    }
 }
